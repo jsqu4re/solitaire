@@ -1,5 +1,2 @@
-## Peg Solitaire Rule Set
+# How to use this package
 
-## Interaction
-
-## Problem Solving
