@@ -41,7 +41,7 @@ class Brain:
 
     def feedback(self, node, solution):
         for n in range(0, self.num_outputs):
-            if (node.intensity[n] >= 0.5 and solution[n] >= 0.5):
+            if (node.intensity[n] >= 0.5 and solution[n] > 0.5):
                 node.intensity[n] += 1
                 node.intensity[n] /= 2
 
