@@ -45,7 +45,7 @@ class Brain:
                 node.intensity[n] += 1
                 node.intensity[n] /= 2
 
-            elif (node.intensity[n] < 0.5 and solution[n] < 0.5):
+            elif (node.intensity[n] <= 0.5 and solution[n] < 0.5):
                 node.intensity[n] /= 2
 
             else:
